@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 name: Linters
 
@@ -56,3 +57,6 @@ jobs:
         run: |
           if [ -d "node_modules/" ]; then echo -e "\e[1;31mThe node_modules/ folder was pushed to the repo. Please remove it from the GitHub repository and try again."; echo -e "\e[1;32mYou can set up a .gitignore file with this folder included on it to prevent this from happening in the future." && exit 1; fi
 >>>>>>> 73b6fb2093526507e084d740585867dcec207fa3
+=======
+
+>>>>>>> b1f0c53e7eaf8a1dfcd2d4ea951e24a8f305fbbd
